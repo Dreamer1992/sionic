@@ -1,26 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import classes from './App.module.css';
+import {Redirect, Route, Switch} from 'react-router-dom';
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import Products from "./pages/Products";
+import Basket from "./pages/Basket";
+import HistoryOrders from "./pages/HistoryOrders";
+import Registration from "./pages/Registration";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className={classes.app}>
+            <Header/>
+
+            <div className={classes.content}>
+                <Switch>
+                    <Redirect exact from='/' to='/products'/>
+                    <Route exact path="/products" render={() => <Products/>}/>
+                    <Route exact path="/basket" render={() => <Basket/>}/>
+                    <Route exact path="/history-orders" render={() => <HistoryOrders/>}/>
+                    <Route exact path="/registration" render={() => <Registration/>}/>
+                </Switch>
+            </div>
+
+            <Footer/>
+        </div>
+    );
 }
 
 export default App;
