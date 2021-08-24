@@ -1,0 +1,16 @@
+.country {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.country > svg {
+    margin-right: 5px;
+}
+
+.country .countryName {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 92px;
+    overflow: hidden;
+}

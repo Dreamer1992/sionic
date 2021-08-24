@@ -1,9 +1,20 @@
 import React, {FC} from 'react';
 import classes from './Header.module.css';
+import Logo from "../Logo/Logo";
+import Country from './Country/Country';
+import Avatar from './Avatar/Avatar';
+import Basket from "./Basket/Basket";
+import SearchBar from "./SearchBar/SearchBar";
 
 const Header: FC = () => {
     return (
-        <div className={classes.container}>Header</div>
+        <div className={classes.header}>
+            <Logo/>
+            <Country/>
+            <SearchBar/>
+            <Basket/>
+            <Avatar/>
+        </div>
     )
 }
 

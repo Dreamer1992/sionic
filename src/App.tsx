@@ -7,20 +7,26 @@ import Products from "./pages/Products";
 import Basket from "./pages/Basket";
 import HistoryOrders from "./pages/HistoryOrders";
 import Registration from "./pages/Registration";
+import Sidebar from "./components/Sidebar/Sidebar";
 
 function App() {
     return (
         <div className={classes.app}>
-            <Header/>
 
             <div className={classes.content}>
-                <Switch>
-                    <Redirect exact from='/' to='/products'/>
-                    <Route exact path="/products" render={() => <Products/>}/>
-                    <Route exact path="/basket" render={() => <Basket/>}/>
-                    <Route exact path="/history-orders" render={() => <HistoryOrders/>}/>
-                    <Route exact path="/registration" render={() => <Registration/>}/>
-                </Switch>
+                <div className={classes.mainContent}>
+                    <Header/>
+
+                    <Switch>
+                        <Redirect exact from='/' to='/products'/>
+                        <Route exact path="/products" render={() => <Products/>}/>
+                        <Route exact path="/basket" render={() => <Basket/>}/>
+                        <Route exact path="/history-orders" render={() => <HistoryOrders/>}/>
+                        <Route exact path="/registration" render={() => <Registration/>}/>
+                    </Switch>
+                </div>
+
+                <Sidebar/>
             </div>
 
             <Footer/>
