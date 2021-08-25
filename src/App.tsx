@@ -3,10 +3,10 @@ import classes from './App.module.css';
 import {Redirect, Route, Switch} from 'react-router-dom';
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
-import Products from "./pages/Products";
-import Basket from "./pages/Basket";
-import HistoryOrders from "./pages/HistoryOrders";
-import Registration from "./pages/Registration";
+import ProductsContainer from "./containers/ProductsContainer";
+import BasketContainer from "./containers/BasketContainer";
+import HistoryOrdersContainer from "./containers/HistoryOrdersContainer";
+import RegistrationContainer from "./containers/RegistrationContainer";
 import Sidebar from "./components/Sidebar/Sidebar";
 
 function App() {
@@ -19,10 +19,10 @@ function App() {
 
                     <Switch>
                         <Redirect exact from='/' to='/products'/>
-                        <Route exact path="/products" render={() => <Products/>}/>
-                        <Route exact path="/basket" render={() => <Basket/>}/>
-                        <Route exact path="/history-orders" render={() => <HistoryOrders/>}/>
-                        <Route exact path="/registration" render={() => <Registration/>}/>
+                        <Route exact path="/products" render={() => <ProductsContainer/>}/>
+                        <Route exact path="/basket" render={() => <BasketContainer/>}/>
+                        <Route exact path="/history-orders" render={() => <HistoryOrdersContainer/>}/>
+                        <Route exact path="/registration" render={() => <RegistrationContainer/>}/>
                     </Switch>
                 </div>
 

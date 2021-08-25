@@ -1,0 +1,17 @@
+.footerBottomLine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerBottomLine a {
+    display: inline-block;
+    margin: 10px 10px 35px;
+    text-decoration: none;
+    color: #8D8D8E;
+    transition: all .3s ease-out;
+}
+
+.footerBottomLine a:hover {
+    color: #2D2D2F;
+}

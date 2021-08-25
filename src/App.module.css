@@ -12,7 +12,7 @@
 }
 
 .content > div:first-child {
-    width: 100%;
+    flex-grow: 1;
 }
 
 .mainContent {

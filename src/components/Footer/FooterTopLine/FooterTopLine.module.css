@@ -1,0 +1,29 @@
+.footerTopLine {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftColumn {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 40px 50px;
+}
+
+.rightColumn {
+    flex: 0 1 350px;
+    padding: 40px 0;
+}
+
+.rightColumn .appDownloadIcons {
+    display: flex;
+    margin: 10px 0;
+}
+
+.rightColumn .appDownloadIcons > div {
+    margin-right: 20px;
+}
+
+.rightColumn .appDownloadIcons > *:last-child {
+    margin-right: 0;
+}

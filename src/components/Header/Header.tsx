@@ -1,6 +1,6 @@
 import React, {FC} from 'react';
 import classes from './Header.module.css';
-import Logo from "../Logo/Logo";
+import Logo from "../common/Logo/Logo";
 import Country from './Country/Country';
 import Avatar from './Avatar/Avatar';
 import Basket from "./Basket/Basket";
