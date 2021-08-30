@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/sionic/static/css/main.501dbf5a.chunk.css",
+    "main.js": "/sionic/static/js/main.b8d78617.chunk.js",
+    "main.js.map": "/sionic/static/js/main.b8d78617.chunk.js.map",
+    "runtime-main.js": "/sionic/static/js/runtime-main.87314f2e.js",
+    "runtime-main.js.map": "/sionic/static/js/runtime-main.87314f2e.js.map",
+    "static/js/2.18cb2c17.chunk.js": "/sionic/static/js/2.18cb2c17.chunk.js",
+    "static/js/2.18cb2c17.chunk.js.map": "/sionic/static/js/2.18cb2c17.chunk.js.map",
+    "static/js/3.d59231b8.chunk.js": "/sionic/static/js/3.d59231b8.chunk.js",
+    "static/js/3.d59231b8.chunk.js.map": "/sionic/static/js/3.d59231b8.chunk.js.map",
+    "index.html": "/sionic/index.html",
+    "static/css/main.501dbf5a.chunk.css.map": "/sionic/static/css/main.501dbf5a.chunk.css.map",
+    "static/js/2.18cb2c17.chunk.js.LICENSE.txt": "/sionic/static/js/2.18cb2c17.chunk.js.LICENSE.txt",
+    "static/media/app-store.6b85818a.svg": "/sionic/static/media/app-store.6b85818a.svg",
+    "static/media/basket.e3e3f5b9.svg": "/sionic/static/media/basket.e3e3f5b9.svg",
+    "static/media/country.31bb9158.svg": "/sionic/static/media/country.31bb9158.svg",
+    "static/media/facebook.61297ec8.svg": "/sionic/static/media/facebook.61297ec8.svg",
+    "static/media/google-play.d4bbb738.svg": "/sionic/static/media/google-play.d4bbb738.svg",
+    "static/media/inst.199135bf.svg": "/sionic/static/media/inst.199135bf.svg",
+    "static/media/magnifier.ba567551.svg": "/sionic/static/media/magnifier.ba567551.svg",
+    "static/media/vk.d34566a7.svg": "/sionic/static/media/vk.d34566a7.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87314f2e.js",
+    "static/js/2.18cb2c17.chunk.js",
+    "static/css/main.501dbf5a.chunk.css",
+    "static/js/main.b8d78617.chunk.js"
+  ]
+}
